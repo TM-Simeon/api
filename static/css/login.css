@@ -1,6 +1,7 @@
 #stylelogin{
 	background-image: url('../images/homepage_carousel.png');
 	opacity: 0.5;
+	margin-top: 50px;
 }
 .data{
 	opacity: 1;
