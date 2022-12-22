@@ -11,4 +11,7 @@ function checkpassword(){
 		alert("passwords dont match")
 	}
 }
-
+function changehref(){
+	var email = document.getElementById("inputemail").value;
+	window.location.href = "/" + email;
+}

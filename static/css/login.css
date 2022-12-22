@@ -1,9 +1,20 @@
 #stylelogin{
-	/*background-image: url('../static/images/homepage_carousel_images_09.28.2021.png');*/
 	background-image: url('../images/homepage_carousel.png');
 	opacity: 0.5;
-	/*background: orange;*/
 }
 .data{
 	opacity: 1;
+}
+#label{
+	width: 150px;
+	display: inline-block;
+}
+#input, #pass1, #pass2{
+	width: 250px;
+}
+#inputemail{
+	width: 250px;
+}
+.data{
+	margin: 150px;
 }

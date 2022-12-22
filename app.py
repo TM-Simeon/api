@@ -4,14 +4,14 @@ from flask import Flask, render_template, request
 
 app = Flask(__name__)
 
-@app.route('/dashboard.html', strict_slashes=False)
-def checkemail():
-    #result = checkUser(email)
-    result = ""
+@app.route('/<email>', strict_slashes=False)
+def checkemail(email):
+    result = checkUser(email)
+    #result = ""
     if (result == "user found"):
-        return render_template('dashboard.html', email=email)
+        return render_template('dashboard.html', mymail=email)
     else:
-        return render_template('dashboard.html')
+        return render_template('login.html', status=result)
     
 @app.route('/', strict_slashes=False)
 def returnvalue():
