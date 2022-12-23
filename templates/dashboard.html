@@ -1,0 +1,593 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>myEdumap</title>
+	<link rel="stylesheet" type="text/css" href="../static/css/style.css">
+	<link rel="stylesheet" type="text/css" href="../static/css/dashboard.css">
+	<link rel="icon" type="icon" href="../static/images/icon.png">
+</head>
+<body>
+	<div class="header">
+		<div class="space">
+			<img src="../static/images/simeon.jpg" width="70"  style="border-radius: 50%;" >
+			<h3>welcome back: {{ mymail }}</h3>
+		</div>
+		<div class="aside">
+			<a id="link" href="index.html">home</a>
+			<a href="login.html">| logout</a>
+		</div>
+	</div>
+	<div class="calendar">
+		<div class="modules">
+			<a href="#" onclick='changeId("text1");'><div id="module0">introduction to Trigonometry</div></a>
+			<a href="#" onclick='changeId("text2");'><div id="module1">Angles and their measure</div></a>
+			<a href="#" onclick='changeId("text3");'><div id="module2">The trigonometric functions</div></a>
+			<a href="#" onclick='changeId("text4");'><div id="module3">Graphs of the trigonometric functions</div></a>
+			<a href="#" onclick='changeId("text5");'><div id="module4">Trigonometric identities and formulas</div></a>
+			<a href="#" onclick='changeId("text6");'><div id="module5">The inverse trigonometric functions</div></a>
+			<a href="#" onclick='changeId("text7");'><div id="module6">Trigonometric Equations</div></a>
+			<a href="#" onclick='changeId("text8");'><div id="module7"> Beyond right triangles</div></a>
+			<a href="#" onclick='changeId("text9");'><div id="module8">Polar coordinates and Applications</div></a>
+			<!-- <div id="module8">Polar coordinates and Applications</div> -->
+		</div>
+		<div id="res-task">
+			<!-- space simply push the tasks away from the modules -->
+			<!-- <div id="space"></div> -->
+			<div id="text1">
+						<div id="resources">
+							<h1>Resources</h1>
+							<ul>
+							<li><a href="https://www.toppr.com/guides/maths/trigonometric-functions/measurement-of-angles" target="_blank">Measurement of Angles</a></li>
+							<li><a href="https://byjus.com/maths/radian-measure" target="_blank">Radian measure of Angles</a></li>
+							<li><a href="" target="_blank">Applications of Radian Measure</a></li>
+							</ul>
+						</div>
+						<div class="question"> 1. convert the angles into the DMS system. Round each of your answers to the nearest second</div>
+						<div class="answer">
+							<input type="text" name="answer" placeholder="ans1">
+							<input type="text" name="answer" placeholder="ans2">
+							<input type="text" name="answer" placeholder="ans3">
+							<input type="text" name="answer" placeholder="ans4">
+							<button>submit</button>
+
+						</div>
+						<div class="question"> 2. convert the angles into the DMS system. Round each of your answers to the nearest second</div>
+						<div class="answer">
+							<input type="text" name="answer" placeholder="ans1">
+							<input type="text" name="answer">
+							<input type="text" name="answer">
+							<input type="text" name="answer">
+							<button>submit</button>
+						</div>
+						<div class="question"> 3. convert the angles into the DMS system. Round each of your answers to the nearest second</div>
+						<div class="answer">
+							<input type="text" name="answer" placeholder="ans1">
+							<input type="text" name="answer">
+							<input type="text" name="answer">
+							<input type="text" name="answer">
+							<button>submit</button>
+						</div>
+						<div class="question"> 4. convert the angles into the DMS system. Round each of your answers to the nearest second</div>
+						<div class="answer">
+							<input type="text" name="answer" placeholder="ans1">
+							<input type="text" name="answer" placeholder="ans2">
+							<input type="text" name="answer" placeholder="ans3">
+							<input type="text" name="answer" placeholder="ans4">
+							<button>submit</button>
+						</div>
+						<div class="question"> 5. convert the angles into the DMS system. Round each of your answers to the nearest second</div>
+						<div class="answer">
+							<input type="text" name="answer" placeholder="ans1">
+							<input type="text" name="answer">
+							<input type="text" name="answer">
+							<input type="text" name="answer">
+							<button>submit</button>
+						</div>
+						<div class="question"> 6. convert the angles into the DMS system. Round each of your answers to the nearest second</div>
+						<div class="answer">
+							<input type="text" name="answer" placeholder="ans1">
+							<input type="text" name="answer">
+							<input type="text" name="answer">
+							<input type="text" name="answer">
+							<button>submit</button>
+						</div>
+
+			</div>
+			<div id="text2">
+						<div id="resources">
+							<div id="firsthalf">
+								<h3>Resources</h3>
+								<ul>
+								<li><a href="https://www.toppr.com/guides/maths/trigonometric-functions/measurement-of-angles" target="_blank">Measurement of Angles</a></li>
+								<li><a href="https://byjus.com/maths/radian-measure" target="_blank">Radian measure of Angles</a></li>
+								<li><a href="" target="_blank">Applications of Radian Measure</a></li>
+								</ul>
+							</div>
+							<div id="secondhalf">
+								<h3>objectives</h3>
+								<ul>
+								<li><a href="https://www.toppr.com/guides/maths/trigonometric-functions/measurement-of-angles" target="_blank">Measurement of Angles</a></li>
+								<li><a href="https://byjus.com/maths/radian-measure" target="_blank">Radian measure of Angles</a></li>
+								<li><a href="" target="_blank">Applications of Radian Measure</a></li>
+								</ul>
+							</div>
+						</div>
+						<div class="question"> 2. convert the angles into the DMS system. Round each of your answers to the nearest second</div>
+						<div class="answer">
+							<input type="text" name="answer" placeholder="ans1">
+							<input type="text" name="answer" placeholder="ans2">
+							<input type="text" name="answer" placeholder="ans3">
+							<input type="text" name="answer" placeholder="ans4">
+							<button>submit</button>
+
+						</div>
+						<div class="question"> 2. convert the angles into the DMS system. Round each of your answers to the nearest second</div>
+						<div class="answer">
+							<input type="text" name="answer" placeholder="ans1">
+							<input type="text" name="answer">
+							<input type="text" name="answer">
+							<input type="text" name="answer">
+							<button>submit</button>
+						</div>
+						<div class="question"> 3. convert the angles into the DMS system. Round each of your answers to the nearest second</div>
+						<div class="answer">
+							<input type="text" name="answer" placeholder="ans1">
+							<input type="text" name="answer">
+							<input type="text" name="answer">
+							<input type="text" name="answer">
+							<button>submit</button>
+						</div>
+						<div class="question"> 4. convert the angles into the DMS system. Round each of your answers to the nearest second</div>
+						<div class="answer">
+							<input type="text" name="answer" placeholder="ans1">
+							<input type="text" name="answer" placeholder="ans2">
+							<input type="text" name="answer" placeholder="ans3">
+							<input type="text" name="answer" placeholder="ans4">
+							<button>submit</button>
+						</div>
+						<div class="question"> 5. convert the angles into the DMS system. Round each of your answers to the nearest second</div>
+						<div class="answer">
+							<input type="text" name="answer" placeholder="ans1">
+							<input type="text" name="answer">
+							<input type="text" name="answer">
+							<input type="text" name="answer">
+							<button>submit</button>
+						</div>
+						<div class="question"> 7. convert the angles into the DMS system. Round each of your answers to the nearest second</div>
+						<div class="answer">
+							<input type="text" name="answer" placeholder="ans1">
+							<input type="text" name="answer">
+							<input type="text" name="answer">
+							<input type="text" name="answer">
+							<button>submit</button>
+						</div>
+
+			</div>
+			<div id="text3">
+						<div id="resources">
+							<h1>Resources</h1>
+							<ul>
+							<li><a href="https://www.toppr.com/guides/maths/trigonometric-functions/measurement-of-angles" target="_blank">Measurement of Angles</a></li>
+							<li><a href="https://byjus.com/maths/radian-measure" target="_blank">Radian measure of Angles</a></li>
+							<li><a href="" target="_blank">Applications of Radian Measure</a></li>
+							</ul>
+						</div>
+						<div class="question"> 3. convert the angles into the DMS system. Round each of your answers to the nearest second</div>
+						<div class="answer">
+							<input type="text" name="answer" placeholder="ans1">
+							<input type="text" name="answer" placeholder="ans2">
+							<input type="text" name="answer" placeholder="ans3">
+							<input type="text" name="answer" placeholder="ans4">
+							<button>submit</button>
+
+						</div>
+						<div class="question"> 2. convert the angles into the DMS system. Round each of your answers to the nearest second</div>
+						<div class="answer">
+							<input type="text" name="answer" placeholder="ans1">
+							<input type="text" name="answer">
+							<input type="text" name="answer">
+							<input type="text" name="answer">
+							<button>submit</button>
+						</div>
+						<div class="question"> 3. convert the angles into the DMS system. Round each of your answers to the nearest second</div>
+						<div class="answer">
+							<input type="text" name="answer" placeholder="ans1">
+							<input type="text" name="answer">
+							<input type="text" name="answer">
+							<input type="text" name="answer">
+							<button>submit</button>
+						</div>
+						<div class="question"> 4. convert the angles into the DMS system. Round each of your answers to the nearest second</div>
+						<div class="answer">
+							<input type="text" name="answer" placeholder="ans1">
+							<input type="text" name="answer" placeholder="ans2">
+							<input type="text" name="answer" placeholder="ans3">
+							<input type="text" name="answer" placeholder="ans4">
+							<button>submit</button>
+						</div>
+						<div class="question"> 5. convert the angles into the DMS system. Round each of your answers to the nearest second</div>
+						<div class="answer">
+							<input type="text" name="answer" placeholder="ans1">
+							<input type="text" name="answer">
+							<input type="text" name="answer">
+							<input type="text" name="answer">
+							<button>submit</button>
+						</div>
+						<div class="question"> 7. convert the angles into the DMS system. Round each of your answers to the nearest second</div>
+						<div class="answer">
+							<input type="text" name="answer" placeholder="ans1">
+							<input type="text" name="answer">
+							<input type="text" name="answer">
+							<input type="text" name="answer">
+							<button>submit</button>
+						</div>
+
+			</div>
+			<div id="text4">
+						<div id="resources">
+							<h1>Resources</h1>
+							<ul>
+							<li><a href="https://www.toppr.com/guides/maths/trigonometric-functions/measurement-of-angles" target="_blank">Measurement of Angles</a></li>
+							<li><a href="https://byjus.com/maths/radian-measure" target="_blank">Radian measure of Angles</a></li>
+							<li><a href="" target="_blank">Applications of Radian Measure</a></li>
+							</ul>
+						</div>
+						<div class="question"> 4. convert the angles into the DMS system. Round each of your answers to the nearest second</div>
+						<div class="answer">
+							<input type="text" name="answer" placeholder="ans1">
+							<input type="text" name="answer" placeholder="ans2">
+							<input type="text" name="answer" placeholder="ans3">
+							<input type="text" name="answer" placeholder="ans4">
+							<button>submit</button>
+
+						</div>
+						<div class="question"> 2. convert the angles into the DMS system. Round each of your answers to the nearest second</div>
+						<div class="answer">
+							<input type="text" name="answer" placeholder="ans1">
+							<input type="text" name="answer">
+							<input type="text" name="answer">
+							<input type="text" name="answer">
+							<button>submit</button>
+						</div>
+						<div class="question"> 3. convert the angles into the DMS system. Round each of your answers to the nearest second</div>
+						<div class="answer">
+							<input type="text" name="answer" placeholder="ans1">
+							<input type="text" name="answer">
+							<input type="text" name="answer">
+							<input type="text" name="answer">
+							<button>submit</button>
+						</div>
+						<div class="question"> 4. convert the angles into the DMS system. Round each of your answers to the nearest second</div>
+						<div class="answer">
+							<input type="text" name="answer" placeholder="ans1">
+							<input type="text" name="answer" placeholder="ans2">
+							<input type="text" name="answer" placeholder="ans3">
+							<input type="text" name="answer" placeholder="ans4">
+							<button>submit</button>
+						</div>
+						<div class="question"> 5. convert the angles into the DMS system. Round each of your answers to the nearest second</div>
+						<div class="answer">
+							<input type="text" name="answer" placeholder="ans1">
+							<input type="text" name="answer">
+							<input type="text" name="answer">
+							<input type="text" name="answer">
+							<button>submit</button>
+						</div>
+						<div class="question"> 7. convert the angles into the DMS system. Round each of your answers to the nearest second</div>
+						<div class="answer">
+							<input type="text" name="answer" placeholder="ans1">
+							<input type="text" name="answer">
+							<input type="text" name="answer">
+							<input type="text" name="answer">
+							<button>submit</button>
+						</div>
+
+			</div>
+			<div id="text5">
+						<div id="resources">
+							<h1>Resources</h1>
+							<ul>
+							<li><a href="https://www.toppr.com/guides/maths/trigonometric-functions/measurement-of-angles" target="_blank">Measurement of Angles</a></li>
+							<li><a href="https://byjus.com/maths/radian-measure" target="_blank">Radian measure of Angles</a></li>
+							<li><a href="" target="_blank">Applications of Radian Measure</a></li>
+							</ul>
+						</div>
+						<div class="question"> 5. convert the angles into the DMS system. Round each of your answers to the nearest second</div>
+						<div class="answer">
+							<input type="text" name="answer" placeholder="ans1">
+							<input type="text" name="answer" placeholder="ans2">
+							<input type="text" name="answer" placeholder="ans3">
+							<input type="text" name="answer" placeholder="ans4">
+							<button>submit</button>
+
+						</div>
+						<div class="question"> 2. convert the angles into the DMS system. Round each of your answers to the nearest second</div>
+						<div class="answer">
+							<input type="text" name="answer" placeholder="ans1">
+							<input type="text" name="answer">
+							<input type="text" name="answer">
+							<input type="text" name="answer">
+							<button>submit</button>
+						</div>
+						<div class="question"> 3. convert the angles into the DMS system. Round each of your answers to the nearest second</div>
+						<div class="answer">
+							<input type="text" name="answer" placeholder="ans1">
+							<input type="text" name="answer">
+							<input type="text" name="answer">
+							<input type="text" name="answer">
+							<button>submit</button>
+						</div>
+						<div class="question"> 4. convert the angles into the DMS system. Round each of your answers to the nearest second</div>
+						<div class="answer">
+							<input type="text" name="answer" placeholder="ans1">
+							<input type="text" name="answer" placeholder="ans2">
+							<input type="text" name="answer" placeholder="ans3">
+							<input type="text" name="answer" placeholder="ans4">
+							<button>submit</button>
+						</div>
+						<div class="question"> 5. convert the angles into the DMS system. Round each of your answers to the nearest second</div>
+						<div class="answer">
+							<input type="text" name="answer" placeholder="ans1">
+							<input type="text" name="answer">
+							<input type="text" name="answer">
+							<input type="text" name="answer">
+							<button>submit</button>
+						</div>
+						<div class="question"> 7. convert the angles into the DMS system. Round each of your answers to the nearest second</div>
+						<div class="answer">
+							<input type="text" name="answer" placeholder="ans1">
+							<input type="text" name="answer">
+							<input type="text" name="answer">
+							<input type="text" name="answer">
+							<button>submit</button>
+						</div>
+
+			</div>
+			<div id="text6">
+						<div id="resources">
+							<h1>Resources</h1>
+							<ul>
+							<li><a href="https://www.toppr.com/guides/maths/trigonometric-functions/measurement-of-angles" target="_blank">Measurement of Angles</a></li>
+							<li><a href="https://byjus.com/maths/radian-measure" target="_blank">Radian measure of Angles</a></li>
+							<li><a href="" target="_blank">Applications of Radian Measure</a></li>
+							</ul>
+						</div>
+						<div class="question"> 6. convert the angles into the DMS system. Round each of your answers to the nearest second</div>
+						<div class="answer">
+							<input type="text" name="answer" placeholder="ans1">
+							<input type="text" name="answer" placeholder="ans2">
+							<input type="text" name="answer" placeholder="ans3">
+							<input type="text" name="answer" placeholder="ans4">
+							<button>submit</button>
+
+						</div>
+						<div class="question"> 2. convert the angles into the DMS system. Round each of your answers to the nearest second</div>
+						<div class="answer">
+							<input type="text" name="answer" placeholder="ans1">
+							<input type="text" name="answer">
+							<input type="text" name="answer">
+							<input type="text" name="answer">
+							<button>submit</button>
+						</div>
+						<div class="question"> 3. convert the angles into the DMS system. Round each of your answers to the nearest second</div>
+						<div class="answer">
+							<input type="text" name="answer" placeholder="ans1">
+							<input type="text" name="answer">
+							<input type="text" name="answer">
+							<input type="text" name="answer">
+							<button>submit</button>
+						</div>
+						<div class="question"> 4. convert the angles into the DMS system. Round each of your answers to the nearest second</div>
+						<div class="answer">
+							<input type="text" name="answer" placeholder="ans1">
+							<input type="text" name="answer" placeholder="ans2">
+							<input type="text" name="answer" placeholder="ans3">
+							<input type="text" name="answer" placeholder="ans4">
+							<button>submit</button>
+						</div>
+						<div class="question"> 5. convert the angles into the DMS system. Round each of your answers to the nearest second</div>
+						<div class="answer">
+							<input type="text" name="answer" placeholder="ans1">
+							<input type="text" name="answer">
+							<input type="text" name="answer">
+							<input type="text" name="answer">
+							<button>submit</button>
+						</div>
+						<div class="question"> 7. convert the angles into the DMS system. Round each of your answers to the nearest second</div>
+						<div class="answer">
+							<input type="text" name="answer" placeholder="ans1">
+							<input type="text" name="answer">
+							<input type="text" name="answer">
+							<input type="text" name="answer">
+							<button>submit</button>
+						</div>
+
+			</div>
+			<div id="text7">
+						<div id="resources">
+							<h1>Resources</h1>
+							<ul>
+							<li><a href="https://www.toppr.com/guides/maths/trigonometric-functions/measurement-of-angles" target="_blank">Measurement of Angles</a></li>
+							<li><a href="https://byjus.com/maths/radian-measure" target="_blank">Radian measure of Angles</a></li>
+							<li><a href="" target="_blank">Applications of Radian Measure</a></li>
+							</ul>
+						</div>
+						<div class="question"> 7. convert the angles into the DMS system. Round each of your answers to the nearest second</div>
+						<div class="answer">
+							<input type="text" name="answer" placeholder="ans1">
+							<input type="text" name="answer" placeholder="ans2">
+							<input type="text" name="answer" placeholder="ans3">
+							<input type="text" name="answer" placeholder="ans4">
+							<button>submit</button>
+
+						</div>
+						<div class="question"> 2. convert the angles into the DMS system. Round each of your answers to the nearest second</div>
+						<div class="answer">
+							<input type="text" name="answer" placeholder="ans1">
+							<input type="text" name="answer">
+							<input type="text" name="answer">
+							<input type="text" name="answer">
+							<button>submit</button>
+						</div>
+						<div class="question"> 3. convert the angles into the DMS system. Round each of your answers to the nearest second</div>
+						<div class="answer">
+							<input type="text" name="answer" placeholder="ans1">
+							<input type="text" name="answer">
+							<input type="text" name="answer">
+							<input type="text" name="answer">
+							<button>submit</button>
+						</div>
+						<div class="question"> 4. convert the angles into the DMS system. Round each of your answers to the nearest second</div>
+						<div class="answer">
+							<input type="text" name="answer" placeholder="ans1">
+							<input type="text" name="answer" placeholder="ans2">
+							<input type="text" name="answer" placeholder="ans3">
+							<input type="text" name="answer" placeholder="ans4">
+							<button>submit</button>
+						</div>
+						<div class="question"> 5. convert the angles into the DMS system. Round each of your answers to the nearest second</div>
+						<div class="answer">
+							<input type="text" name="answer" placeholder="ans1">
+							<input type="text" name="answer">
+							<input type="text" name="answer">
+							<input type="text" name="answer">
+							<button>submit</button>
+						</div>
+						<div class="question"> 7. convert the angles into the DMS system. Round each of your answers to the nearest second</div>
+						<div class="answer">
+							<input type="text" name="answer" placeholder="ans1">
+							<input type="text" name="answer">
+							<input type="text" name="answer">
+							<input type="text" name="answer">
+							<button>submit</button>
+						</div>
+
+			</div>
+			<div id="text8">
+						<div id="resources">
+							<h1>Resources</h1>
+							<ul>
+							<li><a href="https://www.toppr.com/guides/maths/trigonometric-functions/measurement-of-angles" target="_blank">Measurement of Angles</a></li>
+							<li><a href="https://byjus.com/maths/radian-measure" target="_blank">Radian measure of Angles</a></li>
+							<li><a href="" target="_blank">Applications of Radian Measure</a></li>
+							</ul>
+						</div>
+						<div class="question"> 8. convert the angles into the DMS system. Round each of your answers to the nearest second</div>
+						<div class="answer">
+							<input type="text" name="answer" placeholder="ans1">
+							<input type="text" name="answer" placeholder="ans2">
+							<input type="text" name="answer" placeholder="ans3">
+							<input type="text" name="answer" placeholder="ans4">
+							<button>submit</button>
+
+						</div>
+						<div class="question"> 2. convert the angles into the DMS system. Round each of your answers to the nearest second</div>
+						<div class="answer">
+							<input type="text" name="answer" placeholder="ans1">
+							<input type="text" name="answer">
+							<input type="text" name="answer">
+							<input type="text" name="answer">
+							<button>submit</button>
+						</div>
+						<div class="question"> 3. convert the angles into the DMS system. Round each of your answers to the nearest second</div>
+						<div class="answer">
+							<input type="text" name="answer" placeholder="ans1">
+							<input type="text" name="answer">
+							<input type="text" name="answer">
+							<input type="text" name="answer">
+							<button>submit</button>
+						</div>
+						<div class="question"> 4. convert the angles into the DMS system. Round each of your answers to the nearest second</div>
+						<div class="answer">
+							<input type="text" name="answer" placeholder="ans1">
+							<input type="text" name="answer" placeholder="ans2">
+							<input type="text" name="answer" placeholder="ans3">
+							<input type="text" name="answer" placeholder="ans4">
+							<button>submit</button>
+						</div>
+						<div class="question"> 5. convert the angles into the DMS system. Round each of your answers to the nearest second</div>
+						<div class="answer">
+							<input type="text" name="answer" placeholder="ans1">
+							<input type="text" name="answer">
+							<input type="text" name="answer">
+							<input type="text" name="answer">
+							<button>submit</button>
+						</div>
+						<div class="question"> 7. convert the angles into the DMS system. Round each of your answers to the nearest second</div>
+						<div class="answer">
+							<input type="text" name="answer" placeholder="ans1">
+							<input type="text" name="answer">
+							<input type="text" name="answer">
+							<input type="text" name="answer">
+							<button>submit</button>
+						</div>
+
+			</div>
+			<div id="text9">
+						<div id="resources">
+							<h1>Resources</h1>
+							<ul>
+							<li><a href="https://www.toppr.com/guides/maths/trigonometric-functions/measurement-of-angles" target="_blank">Measurement of Angles</a></li>
+							<li><a href="https://byjus.com/maths/radian-measure" target="_blank">Radian measure of Angles</a></li>
+							<li><a href="" target="_blank">Applications of Radian Measure</a></li>
+							</ul>
+						</div>
+						<div class="question"> 9. convert the angles into the DMS system. Round each of your answers to the nearest second</div>
+						<div class="answer">
+							<input type="text" name="answer" placeholder="ans1">
+							<input type="text" name="answer" placeholder="ans2">
+							<input type="text" name="answer" placeholder="ans3">
+							<input type="text" name="answer" placeholder="ans4">
+							<button>submit</button>
+
+						</div>
+						<div class="question"> 2. convert the angles into the DMS system. Round each of your answers to the nearest second</div>
+						<div class="answer">
+							<input type="text" name="answer" placeholder="ans1">
+							<input type="text" name="answer">
+							<input type="text" name="answer">
+							<input type="text" name="answer">
+							<button>submit</button>
+						</div>
+						<div class="question"> 3. convert the angles into the DMS system. Round each of your answers to the nearest second</div>
+						<div class="answer">
+							<input type="text" name="answer" placeholder="ans1">
+							<input type="text" name="answer">
+							<input type="text" name="answer">
+							<input type="text" name="answer">
+							<button>submit</button>
+						</div>
+						<div class="question"> 4. convert the angles into the DMS system. Round each of your answers to the nearest second</div>
+						<div class="answer">
+							<input type="text" name="answer" placeholder="ans1">
+							<input type="text" name="answer" placeholder="ans2">
+							<input type="text" name="answer" placeholder="ans3">
+							<input type="text" name="answer" placeholder="ans4">
+							<button>submit</button>
+						</div>
+						<div class="question"> 5. convert the angles into the DMS system. Round each of your answers to the nearest second</div>
+						<div class="answer">
+							<input type="text" name="answer" placeholder="ans1">
+							<input type="text" name="answer">
+							<input type="text" name="answer">
+							<input type="text" name="answer">
+							<button>submit</button>
+						</div>
+						<div class="question"> 7. convert the angles into the DMS system. Round each of your answers to the nearest second</div>
+						<div class="answer">
+							<input type="text" name="answer" placeholder="ans1">
+							<input type="text" name="answer">
+							<input type="text" name="answer">
+							<input type="text" name="answer">
+							<button>submit</button>
+						</div>
+
+			</div>
+		</div>
+	</div>
+	
+	<div class="footer"></div>
+	<script type="text/javascript" src="../static/js/dashboard.js"></script>
+</body>
+</html>

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>myEdumap</title>
+	<link rel="stylesheet" type="text/css" href="../static/css/style.css">
+	<link rel="stylesheet" type="text/css" href="../static/css/login.css">
+	<link rel="icon" type="icon" href="../static/images/icon.png">
+</head>
+<body>
+	<div class="header">
+		<div class="space">
+			<img src="../static/images/icon.png" width="70">
+		</div>
+		<div class="aside">
+			<a id="link" href="index.html">Home</a>
+			<div class="dropdown">
+				<button>Select Educational Level</button>
+				<div class="dropdown-content">
+					<a href="">Secondary School</a>
+					<br>
+					<a href="">Higher Institution</a>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div id="stylelogin" >
+		<div class="data">
+			<div><a href="createAccount.html">Create Account</a> <tb></tb> | login {{ status }}</div>
+			<div>
+				<label id="label">email</label>
+				<input id="inputemail" type="text" name="username" placeholder="enter email" autocomplete="off">
+			</div>
+			<div>
+				<label id="label">password</label>
+				<input id="input" type="password" name="password" id="pass11" placeholder="enter password">
+			</div>
+			<div>
+				<label id="label">forget password?</label>
+				<input id="input" type="text" name="username" placeholder="enter email" autocomplete="off">
+			</div>
+			<!-- <a href="dashboard.htmt"><button type="submit" onclick="checkpassword()">submit</button></a> -->
+			<button type="submit" onclick="changehref()">submit</button>
+		</div>
+	</div>
+	<div class="footer"></div>
+	<script type="text/javascript" src="../static/js/script.js"></script>
+	<script type="text/javascript" src="../static/js/login.js"></script>
+</body>
+</html>

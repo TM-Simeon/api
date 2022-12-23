@@ -1,0 +1,10 @@
+.data{
+	margin: 150px;
+}
+#label{
+	width: 150px;
+	display: inline-block;
+}
+#input, #pass1, #pass2{
+	width: 250px;
+}

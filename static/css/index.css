@@ -1,0 +1,32 @@
+.headlines{
+	display: inline-block;
+	width: 30%;
+	/*border: 1px solid green;*/
+	height: 400px;
+	overflow-y: hidden;
+	float: left;
+	text-align: left;
+	margin-left: 5px;
+	overflow-y: scroll;
+}
+.headlines:hover {
+	/*overflow-y: scroll;*/
+}
+.details{
+	display: inline-block;
+	width: 60%;
+	/*border: 1px solid green;*/
+	overflow-y: hidden;
+	height: 400px;
+
+}
+.details:hover{
+	overflow-y: scroll;
+}
+
+h1.headlines{
+	margin-left: 5px;
+}
+.grid-container{
+	text-align: center;
+}
