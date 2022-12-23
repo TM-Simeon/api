@@ -1,21 +1,22 @@
 #stylelogin{
 	background-image: url('../images/homepage_carousel.png');
-	opacity: 0.5;
+	/*opacity: 0.5;*/
 	margin-top: 50px;
 }
 .data{
 	opacity: 1;
+	margin: 150px;
+	background: orange;
+	width: 40%;
+	text-align: center;
 }
 #label{
 	width: 150px;
 	display: inline-block;
 }
 #input, #pass1, #pass2{
-	width: 250px;
+	width: 50%;
 }
 #inputemail{
-	width: 250px;
-}
-.data{
-	margin: 150px;
+	width: 50%;
 }
