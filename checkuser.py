@@ -13,7 +13,7 @@ def checkUser(email):
             row_as_dict = row._mapping
             myemail = row_as_dict['email']
         if (myemail == ""):
-            return "user not found"
+            return "! user not found"
         else:
             return "user found"
     engine.dispose()

@@ -1,10 +1,9 @@
 #stylelogin{
-	background-image: url('../images/homepage_carousel.png');
+	background-image: url('../images/homepage_african2.jpg');
 	/*opacity: 0.5;*/
 	margin-top: 50px;
 }
 .data{
-	opacity: 1;
 	margin: 150px;
 	background: orange;
 	width: 40%;
