@@ -47,9 +47,15 @@ body{
 	border: 3px solid orange;
 	text-align: center;
 }
+.footersection{
+	text-align: left;
+	/*margin-left: 40%;*/
+	padding: 5px;
+}
 .footer{
 	background: orange;
 	width: 100%;
-	height: 150px;
+	min-height: 150px;
 	margin-top: auto;
+	text-align: center;
 }
