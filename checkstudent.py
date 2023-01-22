@@ -3,11 +3,11 @@
 from sqlalchemy import create_engine
 from sqlalchemy import text
 
-def checkUser(email):
+def checkStudent(email):
     engine = create_engine("mysql+mysqldb://simeon:1306NaBeM3006@localhost/portfolio")
     myemail = ""
     with engine.connect() as conn:
-        result = conn.execute(text("select * from myusers where email = '{}';".format(email)))
+        result = conn.execute(text("select * from student where email = '{}';".format(email)))
         for row in result:
             row_as_dict = row._mapping
             myemail = row_as_dict['email']

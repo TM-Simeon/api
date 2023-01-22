@@ -1,0 +1,11 @@
+{% extends "dashboard.html" %}
+{% set mymail = email %}
+{% block course %}
+{% if courses == 'search not found' %}
+    <div>{{ courses }}</div>
+{% else %}
+    {% for course in courses %}
+        <div id="{{ course }}" style="background-color: rgb(180, 216, 180); margin: 5px; width: 30%; display: inline-block;"><a href="#" onclick="insertcourse('{{ course }}', '{{ mymail }}')">{{ course }}</a></div>
+    {% endfor %}
+{% endif %}
+{% endblock %}
