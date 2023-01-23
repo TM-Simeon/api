@@ -20,5 +20,3 @@ def courseDetails(course):
     
     print("course title is: "+courseresult[0]+", No of modules is: "+courseresult[1]+" and course duration is: "+courseresult[2])
     return courseresult
-    
-# insertCourse(sys.argv[1])
