@@ -16,4 +16,14 @@ function changeId(id){
 	// alert(id+" well")
 }
 
-// changeId("text1")
+function searchCourse(){
+	var email = document.getElementById("save email").innerHTML;
+	var course = document.getElementById("courseSelect").value;
+	window.location.href = "searchCourse1?email="+email+"&course="+course;
+}
+
+function insertcourse(course, email){
+	// email = mymail
+	window.location.href = "insertcourse?email="+email+"&course="+course;
+	// alert(email+" you have successfully registered for "+course)
+}

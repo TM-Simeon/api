@@ -7,9 +7,8 @@ def checkUser(email):
     engine = create_engine("mysql+mysqldb://simeon:1306NaBeM3006@localhost/portfolio")
     myemail = ""
     with engine.connect() as conn:
-        result = conn.execute(text("select * from student where email = '{}';".format(email)))
+        result = conn.execute(text("select * from myusers where email = '{}';".format(email)))
         for row in result:
-            #print(row)
             row_as_dict = row._mapping
             myemail = row_as_dict['email']
         if (myemail == ""):
